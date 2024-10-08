@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Letter for You</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <script src="animation.js"></script>
+  </head>
+
+  <body>
+    <audio loop id="bgm">
+      <source src="bgm.mp3" type="audio/mpeg" />
+    </audio>
+    <div id="main">
+      <div id="letter" style="font-size: 12px;font-family: Georgia, 'Times New Roman', Times, serif;">
+        <p>Hey there ! 😊</p>
+        <p>Here's the challenge: try not to smile while you read this! I dare you! 😾🫵🏻</p>
+        <br/>
+        <p>I just wanted to take a moment to say how much I appreciate you! You bring so much joy and positivity into my life these past few months, though sometimes you can be annoying, but I really value our connection.</p>
+        <p>It's been amazing getting to know you, and I'm excited about what the future might hold for us!</p>
+        <p>I know we're taking it slow, and that's perfect. Let's keep exploring this together, one step at a time!</p>
+        <br/>
+        <p>I might not always be able to speak or be right there with you since we're miles apart, but I'm always around to cheer you on and support everything you do.</p>
+        <p>You can count on me to be your biggest fan—even if I'm just a friendly ghost floating around! 👻✨</p>
+        <br/>
+        <p>So, if you ever feel a bit disconnected or need to talk about anything, please don't hesitate to reach out! Let's keep this going and see where it takes us. Looking forward to all the adventures and growth ahead!</p>
+        <p>Take care, and remember, I'm just a message away!</p>
+        <br/>
+        <p>With a sprinkle of love and a dash of silliness, here’s a big hug for you, you silly goose! 💌</p>
+      </div>
+      <div id="clock-box">
+        <div id="clock-text">
+          <span class="name">Sal</span> &
+          <span class="name">Ad</span>
+        </div>
+        <div id="clock"></div>
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <input type="hidden" id="memorialDate" value="2017-12-25T00:00:00" />
+    <script src="app.js"></script>
+  </body>
+</html>
